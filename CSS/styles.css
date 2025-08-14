@@ -54,8 +54,46 @@ h2 {
 p {
   font-family: Outfit;
   font-size: 1.6rem;
+  line-height: 1.5;
   margin: 0;
 }
 
+/* Cards */
+.container {
+  background: rgb(241, 200, 206);
+  height: 100vh;
+}
 
+.card {
+  background: var(--color-white);
+  height: 100%;
+  border: 3px solid black;
+}
+
+.card__header {
+  background: dodgerblue;
+  font-size: 4rem;
+}
+
+.card__body {
+  padding: 0 3rem;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card {
+    height: fit-content;
+    max-width: 80vw;
+    border-radius: 10px;
+  }
+  
+  .card__header {
+    padding: 3rem 3rem 0 3rem;
+  }
+}
 
