@@ -65,18 +65,17 @@ p {
 /* Cards */
 .container {
   background: rgb(241, 200, 206);
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .card {
   background: var(--color-white);
   height: 100%;
-  border: 3px solid black;
 }
 
-.card__header {
-  background: dodgerblue;
-  font-size: 4rem;
+
+.card__image {
+  width: 100%;
 }
 
 .card__body {
@@ -87,11 +86,12 @@ p {
   .container {
     display: flex;
     justify-content: center;
-    align-items: center;
+    padding-bottom: 2rem;
   }
 
   .card {
     height: fit-content;
+    margin-top: 8rem;
     max-width: 80vw;
     border-radius: 10px;
   }
@@ -112,6 +112,7 @@ ul {
 
 li {
   padding-left: 2rem;
+  margin-bottom: 1.4rem;
 }
 
 
@@ -165,10 +166,22 @@ li::marker {
 /* Sections */
 .section {
   border-bottom: 1px solid var(--color-stone-two);
-  padding-bottom: 4rem;
+  padding-bottom: 3.4rem;
   margin-bottom: 2rem;
 }
 
 .section:last-of-type {
   border: 0;
 }
+
+/* utilities */
+.shift-down {
+  margin-top: 4rem;
+}
+
+.bolden {
+  font-weight: 700;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
