@@ -30,6 +30,7 @@ html {
 
 body {
   font-size: 1.6rem;
+  font-family: Outfit;
   margin: 0;
   padding: 0;
 }
@@ -52,7 +53,6 @@ h2 {
 }
 
 p {
-  font-family: Outfit;
   font-size: 1.6rem;
   line-height: 1.5;
   margin: 0;
