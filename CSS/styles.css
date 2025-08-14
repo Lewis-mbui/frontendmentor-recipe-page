@@ -34,5 +34,28 @@ body {
   padding: 0;
 }
 
+h1, h2, h3 {
+  font-family: 'Young Serif', serif;
+  font-weight: 500;
+  line-height: 1.0;
+  margin-bottom: 1.4rem;
+  margin-top: 3rem;
+}
+
+h1 {
+  font-size: 3.2rem;
+}
+
+h2 {
+  font-size: 2.4rem;
+  color: var(--color-headings);
+}
+
+p {
+  font-family: Outfit;
+  font-size: 1.6rem;
+  margin: 0;
+}
+
 
 
