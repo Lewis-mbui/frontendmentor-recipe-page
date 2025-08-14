@@ -161,3 +161,14 @@ li::marker {
 .table__last-item {
   border: 0;
 }
+
+/* Sections */
+.section {
+  border-bottom: 1px solid var(--color-stone-two);
+  padding-bottom: 4rem;
+  margin-bottom: 2rem;
+}
+
+.section:last-of-type {
+  border: 0;
+}
